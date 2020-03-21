@@ -5,14 +5,15 @@
 *.war
 *.ear
 
-.idea
-.iml
+*.iml
+
 .idea
 
-**/target
-/.lein-*
+target
+bin
 
+.lein-*
+.cpcache
 .nrepl-port
 
-.cpcache/
-bin/
+
