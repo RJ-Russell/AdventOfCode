@@ -22,14 +22,13 @@
        (fuel-per-module)
        (reduce +)))
 
-(defn day1
+(defn part1
   []
-  (reduce + (map mass->fuel parse-input))
+  (reduce + (map mass->fuel parse-input)))
   ;; => 3454026
-  )
 
-(defn day2
-  []
-  (reduce + (map total-fuel-per-module parse-input))
+(defn part2
   ;; => 5178170
-  )
+  []
+  (reduce + (map total-fuel-per-module parse-input)))
+  ;; => 5178170
