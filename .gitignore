@@ -1,0 +1,18 @@
+*.class
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+.idea
+.iml
+.idea
+
+**/target
+/.lein-*
+
+.nrepl-port
+
+.cpcache/
+bin/
