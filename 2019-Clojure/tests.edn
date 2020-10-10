@@ -1,0 +1,16 @@
+#kaocha/v1
+ {:plugins [:kaocha.plugin/print-invocations
+            :kaocha.plugin/profiling]
+  :color? true
+  :watch? false
+  :randomize? false
+  :fail-fast? true
+  :reporter [kaocha.report/documentation]
+  :capture-output? true
+
+  :tests [{:id :day1
+           :test-paths ["test/day1"]}
+          {:id :day2
+           :test-paths ["test/day2"]}
+          {:id :day3
+           :test-paths ["test/day3"]}]}
