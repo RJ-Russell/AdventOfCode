@@ -16,4 +16,4 @@ bin
 .cpcache
 .nrepl-port
 
-
+**/.calva/**
