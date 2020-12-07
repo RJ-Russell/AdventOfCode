@@ -1,5 +1,4 @@
-{:paths ["src"]
+{:paths ["src" "test"]
  :deps {org.clojure/clojure {:mvn/version "1.10.1"}}
- :aliases {:test {:extra-paths ["test"]
-           :extra-deps {lambdaisland/kaocha {:mvn/version "0.0-529"}}
-           :main-opts ["-m" "kaocha.runner" "--watch"]}}}
+ :aliases {:test/runner {:extra-deps {lambdaisland/kaocha {:mvn/version "1.0.732"}}
+                         :main-opts ["-m" "kaocha.runner"]}}}
