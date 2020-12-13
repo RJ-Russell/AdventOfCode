@@ -11,4 +11,6 @@
   :tests [{:id :day1
            :test-paths ["test/adventofcode/day1"]}
           {:id :day2
-           :test-paths ["test/adventofcode/day2"]}]}
+           :test-paths ["test/adventofcode/day2"]}
+          {:id :day3
+           :test-paths ["test/adventofcode/day3"]}]}
