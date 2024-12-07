@@ -17,3 +17,7 @@ bin
 .nrepl-port
 
 **/.calva/**
+
+**/Cargo.toml
+
+!rust-2024/**/bin
